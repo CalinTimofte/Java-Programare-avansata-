@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01fe3d84-8149-4691-8191-5f998bfc8aba" name="Default Changelist" comment="" />
+    <list default="true" id="01fe3d84-8149-4691-8191-5f998bfc8aba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab5/src/main/java/UAIC/INFO/ProgramareAvansata/lab5/Catalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/src/main/java/UAIC/INFO/ProgramareAvansata/lab5/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab5/src/main/java/UAIC/INFO/ProgramareAvansata/lab5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Resident.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Resident.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +20,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Z1aqbuiUuJcd2cYP6FYdI2SaWG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />

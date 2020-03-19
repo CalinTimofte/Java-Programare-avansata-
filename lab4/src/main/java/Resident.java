@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Resident implements Comparable<Resident>{
+public class Resident implements Comparable<Resident> {
     private String name;
 //    private List<Hospital> hospitalPrefference = new ArrayList<Hospital>();
 

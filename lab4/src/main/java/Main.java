@@ -21,7 +21,7 @@ public class Main {
 
         //generez spitalele cu un stream, numele vor fi adrese
         Hospital[] h = IntStream.rangeClosed(0, 2)
-                .mapToObj(i -> new Hospital(faker.address().streetAddress()) )
+                .mapToObj(i -> new Hospital(faker.address().streetAddress()))
                 .toArray(Hospital[]::new);
 
         //retin spitalele intr-un treeset
