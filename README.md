@@ -1,2 +1,2 @@
-# Java-Programare-avansata-
+# Java-Programare-avansata
 Laboratoare Java
