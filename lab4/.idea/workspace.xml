@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01fe3d84-8149-4691-8191-5f998bfc8aba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab5/src/main/java/UAIC/INFO/ProgramareAvansata/lab5/Catalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5/src/main/java/UAIC/INFO/ProgramareAvansata/lab5/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab5/src/main/java/UAIC/INFO/ProgramareAvansata/lab5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Resident.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Resident.java" afterDir="false" />
-    </list>
+    <list default="true" id="01fe3d84-8149-4691-8191-5f998bfc8aba" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
