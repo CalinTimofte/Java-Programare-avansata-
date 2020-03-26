@@ -21,22 +21,20 @@ public class Main {
         catalog.add(doc);
         try {
             CatalogUtil.save(catalog);
-        }
-        catch (IOException e){
+        } catch (IOException e) {
             System.out.println("The catalog can't be saved");
             System.out.println(e);
         }
     }
 
     private void testLoadView() {
-                try {
-                    Catalog catalog = CatalogUtil.load("D:/Work/JavaResources/catalog.txt");
-                    Document doc =
-                            catalog.findById("java1");
-                    CatalogUtil.view(doc);
-                }
-                catch (InvalidCatalogException | URISyntaxException | IOException e){
-                    e.printStackTrace();
-                }
+        try {
+            Catalog catalog = CatalogUtil.load("D:/Work/JavaResources/catalog.txt");
+            Document doc =
+                    catalog.findById("java1");
+            CatalogUtil.view(doc);
+        } catch (InvalidCatalogException | URISyntaxException | IOException e) {
+            e.printStackTrace();
+        }
     }
 }

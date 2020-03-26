@@ -10,7 +10,7 @@ public class Catalog implements Serializable {
     private String path;
     private List<Document> documents = new ArrayList<Document>();
 
-    public Catalog(){
+    public Catalog() {
 
     }
 
