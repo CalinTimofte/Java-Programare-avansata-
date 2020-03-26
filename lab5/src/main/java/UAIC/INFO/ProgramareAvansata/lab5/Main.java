@@ -1,12 +1,14 @@
 package UAIC.INFO.ProgramareAvansata.lab5;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URISyntaxException;
 
 public class Main {
     public static void main(String args[]) {
         Main app = new Main();
         app.testCreateSave();
-//        app.testLoadView();
+        app.testLoadView();
     }
 
     private void testCreateSave() {
@@ -26,11 +28,15 @@ public class Main {
         }
     }
 
-//    private void testLoadView() {
-//        Catalog catalog =
-//                CatalogUtil.load("d:/java/catalog.ser");
-//        Document doc =
-//                catalog.findById("java1");
-//        CatalogUtil.view(doc);
-//    }
+    private void testLoadView() {
+                try {
+                    Catalog catalog = CatalogUtil.load("D:/Work/JavaResources/catalog.txt");
+                    Document doc =
+                            catalog.findById("java1");
+                    CatalogUtil.view(doc);
+                }
+                catch (InvalidCatalogException | URISyntaxException | IOException e){
+                    e.printStackTrace();
+                }
+    }
 }

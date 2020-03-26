@@ -1,5 +1,6 @@
 package UAIC.INFO.ProgramareAvansata.lab5;
 
+import javax.print.Doc;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -8,6 +9,10 @@ public class Catalog implements Serializable {
     private String name;
     private String path;
     private List<Document> documents = new ArrayList<Document>();
+
+    public Catalog(){
+
+    }
 
     public Catalog(String name, String path) {
         this.name = new String(name);
@@ -53,5 +58,10 @@ public class Catalog implements Serializable {
                 ", path='" + path + '\'' +
                 ", documents=" + documents +
                 '}';
+    }
+
+    public Document findById(String id) {
+        return documents.stream()
+                .filter(d -> d.getId().equals(id)).findFirst().orElse(null);
     }
 }
