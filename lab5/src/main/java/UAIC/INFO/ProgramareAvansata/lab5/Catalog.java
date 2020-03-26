@@ -1,9 +1,10 @@
 package UAIC.INFO.ProgramareAvansata.lab5;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Catalog {
+public class Catalog implements Serializable {
     private String name;
     private String path;
     private List<Document> documents = new ArrayList<Document>();
@@ -13,8 +14,20 @@ public class Catalog {
         this.path = new String(path);
     }
 
+    public Catalog(Object readObject) {
+        Catalog catalog = (Catalog) readObject;
+        this.name = catalog.name;
+        this.path = catalog.path;
+        this.addAll(catalog);
+    }
+
     public void add(Document doc) {
         documents.add(doc);
+    }
+
+    public void addAll(Catalog cat) {
+        for (int i = 0; i < cat.documents.size(); i++)
+            this.add(cat.documents.get(i));
     }
 
     public String getName() {
@@ -31,5 +44,14 @@ public class Catalog {
 
     public void setPath(String path) {
         this.path = path;
+    }
+
+    @Override
+    public String toString() {
+        return "Catalog{" +
+                "name='" + name + '\'' +
+                ", path='" + path + '\'' +
+                ", documents=" + documents +
+                '}';
     }
 }

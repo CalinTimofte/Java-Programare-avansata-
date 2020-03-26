@@ -11,7 +11,7 @@ public class Main {
 
     private void testCreateSave() {
         Catalog catalog =
-                new Catalog("Java Resources", "D:/Work/JavaResources/catalog.ser");
+                new Catalog("Java Resources", "D:/Work/JavaResources/catalog.txt");
         Document doc =
                 new Document("java1", "Java Course 1",
                         "https://profs.info.uaic.ro/~acf/java/slides/en/intro_slide_en.pdf");

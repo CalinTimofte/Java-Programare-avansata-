@@ -1,9 +1,10 @@
 package UAIC.INFO.ProgramareAvansata.lab5;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Document {
+public class Document implements Serializable {
     private String id;
 
     private String name;
@@ -21,5 +22,15 @@ public class Document {
 
     public void addTag(String key, Object obj) {
         tags.put(key, obj);
+    }
+
+    @Override
+    public String toString() {
+        return "Document{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", location='" + location + '\'' +
+                ", tags=" + tags +
+                '}';
     }
 }
