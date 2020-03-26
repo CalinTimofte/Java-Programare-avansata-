@@ -5,4 +5,9 @@ Laboratoare Java:
 Am realizat partea compulsory.
 
 <b>Lab5</b><br>
-Deocamdata am o problema cu JDK-ul care nu ma lasa sa fac build.
+<p>Compulsory:</p>
+<ul>
+  <li>Save</li>
+  <li>Load</li>
+  <li>View</li>
+</ul>
