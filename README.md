@@ -11,3 +11,6 @@ Am realizat partea compulsory.
   <li>Load</li>
   <li>View</li>
 </ul>
+
+<b>Lab 6</b>
+<p>Am scris codul dumneavoastra si am folosit Random.</p>
