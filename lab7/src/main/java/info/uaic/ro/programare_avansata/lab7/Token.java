@@ -4,7 +4,7 @@ public class Token {
     private int number;
 
     public Token(int number) {
-        if(number < 1)
+        if (number < 1)
             throw new IllegalArgumentException("Number should be greater than 1");
         this.number = number;
     }
