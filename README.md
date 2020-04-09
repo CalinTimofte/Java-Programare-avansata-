@@ -14,3 +14,6 @@ Am realizat partea compulsory.
 
 <b>Lab 6</b>
 <p>Am scris codul dumneavoastra si am folosit Random.</p>
+
+<b>Lab 7</b>
+<p>Partea compulsory incompleta.</p>
