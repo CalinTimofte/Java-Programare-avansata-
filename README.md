@@ -16,4 +16,4 @@ Am realizat partea compulsory.
 <p>Am scris codul dumneavoastra si am folosit Random.</p>
 
 <b>Lab 7</b>
-<p>Deocamdata am scris doar scheletul aplicatiei.</p>
+<p>Partea compulsory incompleta.</p>
