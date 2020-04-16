@@ -8,6 +8,7 @@ import java.sql.Statement;
 
 public class ArtistController {
     public void create(String name, String country) {
+//        creates a artist entry into the artists table in the db
         String querry = "INSERT INTO artists (name, country) VALUES (" + "'" + name + "'" + ", " + "'" + country + "'" + ")";
         try {
             Statement stmt = Database.getConn().createStatement();
@@ -18,6 +19,7 @@ public class ArtistController {
     }
 
     public int findByName(String name) {
+//        finds a artist in the artists table by it's name and returns it's id
         int return_id = 0;
         String querry = "SELECT id FROM artists WHERE name = " + "'" + name + "'" + ";";
         try {
@@ -32,6 +34,7 @@ public class ArtistController {
     }
 
     public void showArtistInfo(int id) {
+//        shows info about an artist entry, searching for an artist by id
         String name = "";
         String country = "";
         String querry = "SELECT name, country FROM artists WHERE id = " + "'" + id + "'" + ";";

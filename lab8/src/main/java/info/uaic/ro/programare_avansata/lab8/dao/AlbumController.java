@@ -8,6 +8,7 @@ import java.sql.Statement;
 
 public class AlbumController {
     public void create(String name, int artistId, int releaseYear) {
+//        creates an album entry in the albums table
         String querry = "INSERT INTO albums (name, artist_id, release_year) VALUES (" + "'" + name + "'" + ", "
                 + "'" + artistId + "'" + ", " + "'" + releaseYear + "'" + ")";
         try {
@@ -19,6 +20,7 @@ public class AlbumController {
     }
 
     public void findByArtist(int id) {
+//        shows data about all the albums that share an artist id
         String name;
         int releaseYear;
         String querry = "SELECT name, release_year FROM albums WHERE artist_id = " + "'" + id + "'" + ";";

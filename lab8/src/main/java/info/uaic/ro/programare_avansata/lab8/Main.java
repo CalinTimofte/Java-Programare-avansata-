@@ -8,16 +8,11 @@ import java.sql.SQLException;
 
 public class Main {
     public static void main(String[] args) {
-//        Database connection = new Database();
-//        try {
-//            System.out.println(Database.getConn().getSchema());
-//        } catch (SQLException e) {
-//            System.err.println(e);
-//        }
         ArtistController artistController = new ArtistController();
         AlbumController albumController = new AlbumController();
-        artistController.showArtistInfo(artistController.findByName("test2"));
-//        albumController.create("test_name2", artistController.findByName("test2"), 2020);
-        albumController.findByArtist(artistController.findByName("test2"));
+        artistController.create("testartist3", "testcountry3");
+        artistController.showArtistInfo(artistController.findByName("test3"));
+        albumController.create("test_name3", artistController.findByName("test3"), 2020);
+        albumController.findByArtist(artistController.findByName("test3"));
     }
 }
