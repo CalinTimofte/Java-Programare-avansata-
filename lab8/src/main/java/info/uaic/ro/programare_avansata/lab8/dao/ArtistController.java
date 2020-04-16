@@ -22,6 +22,7 @@ public class ArtistController {
 //        finds a artist in the artists table by it's name and returns it's id
         int return_id = 0;
         String querry = "SELECT id FROM artists WHERE name = " + "'" + name + "'" + ";";
+        //use try with resources
         try {
             Statement stmt = Database.getConn().createStatement();
             ResultSet rs = stmt.executeQuery(querry);
