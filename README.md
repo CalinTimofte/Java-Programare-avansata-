@@ -20,3 +20,6 @@ Am realizat partea compulsory.
 
 <b>Lab 8</b>
 <p>Partea compulsory este functionala.</p>
+
+<b>Lab 9</b>
+<p>Scheletul partii compulsory.</p>
