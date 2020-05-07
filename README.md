@@ -26,3 +26,6 @@ Am realizat partea compulsory.
 
 <b>Lab 10</b>
 <p>Codul din curs pt partea compulsory.</p>
+
+<b>Lab 11</b>
+<p>Spring initializr deocamdata.</p>
