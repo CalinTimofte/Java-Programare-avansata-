@@ -28,4 +28,4 @@ Am realizat partea compulsory.
 <p>Codul din curs pt partea compulsory.</p>
 
 <b>Lab 11</b>
-<p>Spring initializr deocamdata.</p>
+<p>Spring initializr deocamdata + baza de date</p>
