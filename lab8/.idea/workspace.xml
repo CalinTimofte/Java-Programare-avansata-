@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d339f249-f33e-4106-a5f9-562027763663" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab9/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab9/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab9/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab9/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab9/lab9.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab9/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab9/src/main/java/info/uaic/ro/programare_avansata/lab9/entity/Albums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab9/src/main/java/info/uaic/ro/programare_avansata/lab9/entity/Artists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab11/demo/src/main/java/info/uaic/ro/programare_avansata/lab11/demo/dbconn/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/demo/src/main/java/info/uaic/ro/programare_avansata/lab11/demo/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/demo/src/main/java/info/uaic/ro/programare_avansata/lab11/demo/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab11/demo/src/main/java/info/uaic/ro/programare_avansata/lab11/demo/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab11/demo/src/main/java/info/uaic/ro/programare_avansata/lab11/demo/ProductController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/info/uaic/ro/programare_avansata/lab8/dao/ArtistController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/uaic/ro/programare_avansata/lab8/dao/ArtistController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/info/uaic/ro/programare_avansata/lab8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/info/uaic/ro/programare_avansata/lab8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/info/uaic/ro/programare_avansata/lab8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/info/uaic/ro/programare_avansata/lab8/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/info/uaic/ro/programare_avansata/lab8/connection/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/info/uaic/ro/programare_avansata/lab8/connection/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/info/uaic/ro/programare_avansata/lab8/dao/AlbumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/info/uaic/ro/programare_avansata/lab8/dao/AlbumController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/info/uaic/ro/programare_avansata/lab8/dao/ArtistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/info/uaic/ro/programare_avansata/lab8/dao/ArtistController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab11/demo" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
@@ -75,26 +77,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587030306974">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1589365651742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587030306974" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586998510410">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589365651742" />
+    <state width="1478" height="212" key="GridCell.Tab.0.bottom" timestamp="1589375459072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586998510410" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586998510410">
+    <state width="1478" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589375459072" />
+    <state width="1478" height="212" key="GridCell.Tab.0.center" timestamp="1589375459072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586998510410" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586998510410">
+    <state width="1478" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589375459072" />
+    <state width="1478" height="212" key="GridCell.Tab.0.left" timestamp="1589375459072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586998510410" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586998510410">
+    <state width="1478" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589375459072" />
+    <state width="1478" height="212" key="GridCell.Tab.0.right" timestamp="1589375459072">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586998510410" />
+    <state width="1478" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589375459072" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586998510410">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -111,10 +113,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586998510410" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1587024773654">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1589365474814">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587024773654" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589365474814" />
     <state x="209" y="114" key="new project wizard" timestamp="1587030308776">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -11,8 +11,8 @@ public class Main {
         ArtistController artistController = new ArtistController();
         AlbumController albumController = new AlbumController();
         artistController.create("testartist3", "testcountry3");
-        artistController.showArtistInfo(artistController.findByName("test3"));
-        albumController.create("test_name3", artistController.findByName("test3"), 2020);
-        albumController.findByArtist(artistController.findByName("test3"));
+        artistController.showArtistInfo(artistController.findByName("testartist3"));
+        albumController.create("test_name3", artistController.findByName("testartist3"), 2020);
+        albumController.findByArtist(artistController.findByName("testartist3"));
     }
 }
